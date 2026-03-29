@@ -1,0 +1,11 @@
+s = input("Enter a string (numerical): ")
+ch = input("Enter a single char: ")
+s2 = input("Enter a string (non-numerical): ")
+num = int(input("Enter a num: "))
+num2 = float(input("Enter a floating point number: "))
+print(f"string:{s} type: {type(s)}")
+print(f"Character:  {ch} type: {type(ch)}")
+print(f"string2: {s2} type: {type(s2)}")
+print(f"Integer: {num} type: {type(num)}")
+print(f"Decimal:{ num2} type:{ type(num2)}")
+
