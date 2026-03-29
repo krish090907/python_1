@@ -1,0 +1,12 @@
+import math
+r=int(input("Enter the radius of the circle: "))
+print(f"area of the circle is {math.pi*r**2}")
+s1=int(input("Enter length of the first side:" ))
+s2=int(input("Enter the length of the second side: "))
+print(f"the length of the third side is: {math.sqrt(((s1)**2)+((s2)**2))}")
+r=int(input("Enter the radius to locate point on x-axis: "))
+print(f"x co-ordinate is: {r*math.cos(math.radians(90))}")
+a=float(input("Enter the amplitude: "))
+l=float(input("Enter the length of the pendulum: "))
+t=float(input("Enter time: "))
+print(f"pendulum sideways position at time is: {a*(math.sin((math.sqrt(9.8/l))*t))} ")
